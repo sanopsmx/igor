@@ -18,15 +18,11 @@ package com.netflix.spinnaker.igor.gcb;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
-import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.mock;
 
 import com.netflix.spinnaker.kork.web.exceptions.NotFoundException;
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.mockito.junit.MockitoJUnitRunner;
+import org.junit.jupiter.api.Test;
 
-@RunWith(MockitoJUnitRunner.class)
 public class GoogleCloudBuildAccountRepositoryTest {
   @Test
   public void emptyRepository() {
