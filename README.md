@@ -218,5 +218,10 @@ To start the JVM in debug mode, set the Java system property `DEBUG=true`:
 The JVM will then listen for a debugger to be attached on port 8188.  The JVM will _not_ wait for the debugger to be attached before starting igor; the relevant JVM arguments can be seen and modified as needed in `build.gradle`.
 
 
+$${\color{lightblue} Recent \space commits:}$$ 
+
+              CommitID                   |   Author      | Commit Message          | Commit Date
+----------------------------------------------------------------------------------------------------
+
 
 9d4d637a9c9606ffe58901ed3c1d01e8320c79bd | Yugandharkumar | Create commits-preserve.yml | 2023-08-09 
